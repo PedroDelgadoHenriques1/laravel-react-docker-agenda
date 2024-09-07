@@ -49,28 +49,28 @@ Entre em contato via e-mail: pedrodelgadohenriques1@gmail.com
 
 ## PASSO A PASSO DO PROJETO
     
-Clone o Projeto 
+## Clone o Projeto 
 🛠️ Passo a Passo de Configuração do Projeto Laravel
 Instalar Dependências com Composer Certifique-se de ter o Composer instalado. No diretório raiz do projeto, execute:
 
 
-composer install
+## composer install
 Configurar o Arquivo de Ambiente Copie o arquivo .env.example para criar um novo arquivo .env:
 
 
-cp .env.example .env
+## cp .env.example .env
 Gerar a Chave de Aplicação Gere uma nova chave de aplicação para o Laravel com:
 
 
-php artisan key:generate
+## php artisan key:generate
 Executar Migrações do Banco de Dados Crie as tabelas necessárias no banco de dados com:
 
 
-php artisan migrate
+## php artisan migrate
 Iniciar os Contêineres com Docker Compose Se estiver usando Docker, inicie os contêineres em segundo plano:
 
 
-docker-compose up -d
+## docker-compose up -d
 Iniciar o Servidor Laravel Inicie o servidor de desenvolvimento do Laravel:
 
-php artisan serve
+## php artisan serve
