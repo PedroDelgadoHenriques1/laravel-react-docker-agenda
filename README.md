@@ -1,53 +1,32 @@
-# Agenda de contatos - Laravel
+Agenda de Contatos - Laravel
 
-<!-- <p align="center">
-  <img alt="Preview" src="public/preview.png" width="100%">
-</p> -->
+⚙️ Introdução
+Este projeto foi desenvolvido com Laravel para gerenciar contatos, permitindo criar, editar, visualizar e excluir registros de contatos.
 
-## Índice
-* [Introdução](#%EF%B8%8F-introdução)
-* [Tecnologias utilizadas](#%EF%B8%8F-tecnologias-utilizadas)
-* [Ferramentas utilizadas](#%EF%B8%8F-ferramentas-utilizadas)
-* [Serviços utilizados](#-serviços-utilizados)
-* [Funcionalidades do projeto](#-funcionalidades-do-projeto)
-* [Contato](#%EF%B8%8F-contato)
+🖥️ Tecnologias utilizadas
+Laravel
+PHP
+React
+TailwindCSS
+Inertia
+🛠️ Ferramentas utilizadas
+Docker
+PhpStorm
+🧰 Serviços utilizados
+GitHub
 
-## ⚙️ Introdução
+🪚 Funcionalidades do projeto
+Funcionalidade 1: Autenticação de usuários (login e cadastro)
+Funcionalidade 2: Visualização de todos os contatos cadastrados
+Funcionalidade 3: Remoção de contatos
+Funcionalidade 4: Inserção de novos contatos no sistema
+Funcionalidade 5: Atualização dos dados dos contatos
 
-Projeto feito utilizando o Laravel para a construção de um sistema de cadastro, edição, visualização e remoção de contatos.  
-
-## 🖥️ Tecnologias utilizadas
-
-- ``Laravel``
-- ``PHP``
-- ``React``
-- ``TailwindCSS``
-- ``Inertia``
-
-## 🛠️ Ferramentas utilizadas
-
-- ``Docker``
-- ``PhpStorm``
-
-## 🧰 Serviços utilizados
-
-- ``Github``
-
-## 🪚 Funcionalidades do projeto
-
-- ``Funcionalidade 1:`` Sistema de login e cadastro
-- ``Funcionalidade 2:`` Visualização dos contatos cadastrados
-- ``Funcionalidade 3:`` Exclusão de contatos cadastrados
-- ``Funcionalidade 4:`` Cadastro de novos contatos
-- ``Funcionalidade 5:`` Edição de contatos cadastrados
+✉️ Contato
+Entre em contato através do e-mail: pedrodelgadohenriques1@gmail.com
 
 
-## ✉️ Contato
-
-Entre em contato via e-mail: pedrodelgadohenriques1@gmail.com
-
-
-## PASSO A PASSO DO PROJETO
+## PASSO A PASSO DO PROJETO - RODANDO COMANDOS
     
 ## Clone o Projeto 
 🛠️ Passo a Passo de Configuração do Projeto Laravel
@@ -71,6 +50,8 @@ Iniciar os Contêineres com Docker Compose Se estiver usando Docker, inicie os c
 
 
 ## docker-compose up -d
-Iniciar o Servidor Laravel Inicie o servidor de desenvolvimento do Laravel:
+É usado para iniciar containers definidos em um arquivo docker-compose.yml
+
 
 ## php artisan serve
+Iniciar servidor
